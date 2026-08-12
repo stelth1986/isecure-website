@@ -20,7 +20,8 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 | 5872, 5913, 5971, 6128, 6189, 5646, 6029, 6074 | home | reel |
 
 ## About-us: DONE (5678 hero owners, 5656 story fleet undercover, 5875 accreditation siren box)
-## Pocket candidates (viewed, unassigned): 6014 (white dome camera ceiling)
+## Services hub: DONE (6064 hero tech+ceiling cam, 6014 cctv dome, 6036 alarms domes+PIR, 5888 access drill, 5902 intercom door keypad, 6006 monitoring wall)
+## Pocket candidates (viewed, unassigned): 6113 (ute at hotel entrance, portrait)
 
 ## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
