@@ -21,7 +21,8 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 
 ## About-us: DONE (5678 hero owners, 6229 story office meeting, 5982 accreditation director on site) - client-requested swap; 5656 and 5875 returned to unused pool
 ## Services hub: DONE (6064 hero tech+ceiling cam, 6014 cctv dome, 6036 alarms domes+PIR, 5888 access drill, 5902 intercom door keypad, 6006 monitoring wall)
-## CCTV: DONE (6023 hero venue precinct, 6062 split tech+dome function room)
+## CCTV: DONE (6096 hero waterfront restaurant [client pick], 6062 split tech+dome function room, 6089 intro) - 6023 freed
+## Access-control update: 6139 business split [client pick] - 5929 freed
 ## Alarm-systems: DONE (5877 hero siren+ladder, 6039 split PIR at night)
 ## Access-control: DONE (5916 hero device above doorway, 5929 split wiring reader)
 ## Intercom: DONE (6142 hero entry cameras, 6158 split entry unit install)
