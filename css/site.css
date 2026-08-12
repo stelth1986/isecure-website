@@ -144,7 +144,7 @@ nav.mainnav button[aria-expanded="true"] .chev{transform:rotate(180deg)}
 .page-hero.plain{background:var(--night-900)}
 .page-hero.plain::before{content:'';position:absolute;inset:0;background:radial-gradient(60% 60% at 50% 0%,rgba(74,83,172,.28),transparent 70%)}
 .page-hero .hero-scrim{background:linear-gradient(180deg,rgba(6,10,24,.66) 0%,rgba(6,10,24,.3) 50%,rgba(6,10,24,.85) 100%)}
-.page-hero .hero-content{padding-bottom:clamp(3.5rem,7vh,5rem)}
+.page-hero .hero-content{padding-bottom:clamp(5rem,10vh,7rem)}
 .page-hero h1{color:#fff;text-shadow:0 2px 24px rgba(6,10,24,.45)}
 .page-hero .hero-lead2{color:rgba(255,255,255,.88);font-size:clamp(1.05rem,1.4vw,1.25rem);line-height:1.65;max-width:52ch;margin-top:.4rem}
 
@@ -399,7 +399,7 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
   section{padding-block:3.4rem}
   section.tight{padding-block:2.6rem}
   .hero-content{padding-bottom:2.4rem}
-  .page-hero .hero-content{padding-bottom:2.6rem}
+  .page-hero .hero-content{padding-bottom:3.4rem}
   .svc-body{padding:20px 20px 22px}
   .svc-body p{font-size:.92rem;margin-bottom:1rem}
   .icon-card{padding:20px}
