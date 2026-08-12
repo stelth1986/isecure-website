@@ -24,7 +24,8 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## CCTV: DONE (6023 hero venue precinct, 6062 split tech+dome function room)
 ## Alarm-systems: DONE (5877 hero siren+ladder, 6039 split PIR at night)
 ## Access-control: DONE (5916 hero device above doorway, 5929 split wiring reader)
-## Pocket candidates (viewed, unassigned): 6113 (ute at hotel entrance, portrait), 6100 (alarm box, near-dup of 6101 - avoid), 5863 (two techs at vans with ladder - careers/locations)
+## Intercom: DONE (6142 hero entry cameras, 6158 split entry unit install)
+## Pocket candidates (viewed, unassigned): 6113 (ute at hotel entrance, portrait), 6100 (alarm box, near-dup of 6101 - avoid), 5863 (two techs at vans with ladder - careers/locations), 5998 (tech at rack watching feeds - MONITORING hero)
 
 ## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
