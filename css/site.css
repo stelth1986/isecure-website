@@ -209,6 +209,8 @@ section.tight{padding-block:clamp(3rem,6vw,5rem)}
 @keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .client-logo{font-family:'Sora',sans-serif;font-weight:700;font-size:1.3rem;color:var(--ink-400);opacity:.6;transition:all .3s;white-space:nowrap;letter-spacing:-.01em}
 .client-logo:hover{opacity:1;color:var(--ink-600)}
+.marquee-track img{height:44px;width:auto;flex:0 0 auto;opacity:.65;filter:grayscale(1);transition:filter .3s,opacity .3s;border-radius:6px}
+.marquee-track img:hover{filter:none;opacity:1}
 .marquee-caption{color:var(--ink-600);font-size:.9375rem;margin:2.4rem auto 0}
 
 /* dark inset band */
@@ -427,8 +429,9 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
   .chip-badge{font-size:.78rem;padding:.4rem .85rem}
   .chip-cloud span{font-size:.82rem;padding:.42rem .9rem}
   .crumbs{padding-top:1.4rem}
-  .marquee-track{gap:3rem}
+  .marquee-track{gap:2.2rem}
   .client-logo{font-size:1.05rem}
+  .marquee-track img{height:34px}
   .marquee-caption{font-size:.85rem;margin-top:1.8rem}
   .prose p{font-size:.98rem}
   .trust-strip{margin-top:2rem;padding-top:1rem}
