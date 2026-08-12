@@ -23,9 +23,9 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## Services hub: DONE (6064 hero tech+ceiling cam, 6014 cctv dome, 6036 alarms domes+PIR, 5888 access drill, 5902 intercom door keypad, 6006 monitoring wall)
 ## CCTV: DONE (6096 hero waterfront restaurant [client pick], 6062 split tech+dome function room, 6089 intro) - 6023 freed
 ## Access-control update: 6139 business split [client pick] - 5929 freed
-## Alarm-systems: DONE (5877 hero siren+ladder, 6039 split PIR at night)
+## Alarm-systems: DONE (6110 hero hotel lobby [client pick, shared with home intercom card], alarmsystems.webp intro [client file], 6039 split PIR at night) - 5877, 5870 freed
 ## Access-control: DONE (5916 hero device above doorway, 5929 split wiring reader)
-## Intercom: DONE (6142 hero entry cameras, 6158 split entry unit install)
+## Intercom: DONE (6142 hero entry cameras, 6140 intro video doorbell [client pick], 6158 split entry unit install) - 5926 freed
 ## Monitoring: DONE (6012 hero operator at desk, 5998 timeline tech at rack)
 ## Locations hub: DONE (5644 hero, 5651 syd card, 6017 qld card, 6180 vic card, 5989 multi-site split)
 ## Sydney: DONE (5863 hero, 5708 intro) - service strip now icon cards
