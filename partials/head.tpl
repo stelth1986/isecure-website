@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:ital,wght@0,300;0,400;0,600;0,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ROOT}}css/site.css?v=4">
+<link rel="stylesheet" href="{{ROOT}}css/site.css?v=5">
 </head>
 <body>
 
