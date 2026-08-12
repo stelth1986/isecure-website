@@ -19,7 +19,7 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 | 6162 | home | split B |
 | 5872, 5913, 5971, 6128, 6189, 5646, 6029, 6074 | home | reel |
 
-## About-us: DONE (5678 hero owners, 5656 story fleet undercover, 5875 accreditation siren box)
+## About-us: DONE (5678 hero owners, 6229 story office meeting, 5982 accreditation director on site) - client-requested swap; 5656 and 5875 returned to unused pool
 ## Services hub: DONE (6064 hero tech+ceiling cam, 6014 cctv dome, 6036 alarms domes+PIR, 5888 access drill, 5902 intercom door keypad, 6006 monitoring wall)
 ## CCTV: DONE (6023 hero venue precinct, 6062 split tech+dome function room)
 ## Alarm-systems: DONE (5877 hero siren+ladder, 6039 split PIR at night)
