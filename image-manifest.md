@@ -30,7 +30,10 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## Sydney: DONE (5863 hero, 5708 intro) - service strip now icon cards
 ## Queensland: DONE (6113 hero) - icon cards
 ## Victoria: DONE (6221 hero office sign) - icon cards
-## Pocket candidates: 6100 (avoid, near-dup), 6195 (warehouse stock picking - CAREERS), 6207 (sensor stock shelves - careers split?)
+## Careers: DONE (6195 hero warehouse picking)
+## Mega menu: DONE (6207 services feature stock wall, 5674 locations feature van door ASIAL)
+## Home dedupe: DONE (6028 fisheye camera replaces duplicate 6003 in monitor band)
+## AUDIT 2026-08-12: zero cross-page duplicates (mega images 6207/5674 site-wide by design)
 
 ## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
