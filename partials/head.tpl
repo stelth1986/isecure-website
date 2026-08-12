@@ -66,6 +66,14 @@
           <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span>
           <span><span class="t">Alarm monitoring <span class="tagchip">Alert</span></span><span class="s">Our 24/7 centre watches and responds instantly.</span></span>
         </a>
+        <a class="mega-item" href="{{ROOT}}patrols/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l3-9 4 18 3-9h6"/></svg></span>
+          <span><span class="t">Area patrols</span><span class="s">After hours patrols and alarm response for businesses.</span></span>
+        </a>
+        <a class="mega-item" href="{{ROOT}}guard-services/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a7 7 0 0 1 14 0v1"/></svg></span>
+          <span><span class="t">Guard services</span><span class="s">Licensed guards for venues, retail, events and corporate.</span></span>
+        </a>
         <a class="mega-item all" href="{{ROOT}}services/">All services &rarr;</a>
       </div>
       <div class="mega-feature">
@@ -134,6 +142,8 @@
       <a href="{{ROOT}}access-control/">Access control</a>
       <a href="{{ROOT}}intercom/">Intercom systems</a>
       <a href="{{ROOT}}monitoring/">Alarm monitoring</a>
+      <a href="{{ROOT}}patrols/">Area patrols</a>
+      <a href="{{ROOT}}guard-services/">Guard services</a>
       <a href="{{ROOT}}services/">All services</a>
     </div>
     <button type="button" data-sub="subLocations" aria-expanded="false">Locations

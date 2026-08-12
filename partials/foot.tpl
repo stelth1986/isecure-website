@@ -15,6 +15,8 @@
           <li><a href="{{ROOT}}access-control/">iSee Access Control</a></li>
           <li><a href="{{ROOT}}intercom/">iSee Intercom Systems</a></li>
           <li><a href="{{ROOT}}monitoring/">Alert Monitoring Centre</a></li>
+          <li><a href="{{ROOT}}patrols/">Area Patrols</a></li>
+          <li><a href="{{ROOT}}guard-services/">Guard Services</a></li>
         </ul>
       </div>
       <div>
