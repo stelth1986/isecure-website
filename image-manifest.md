@@ -22,7 +22,8 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## About-us: DONE (5678 hero owners, 5656 story fleet undercover, 5875 accreditation siren box)
 ## Services hub: DONE (6064 hero tech+ceiling cam, 6014 cctv dome, 6036 alarms domes+PIR, 5888 access drill, 5902 intercom door keypad, 6006 monitoring wall)
 ## CCTV: DONE (6023 hero venue precinct, 6062 split tech+dome function room)
-## Pocket candidates (viewed, unassigned): 6113 (ute at hotel entrance, portrait), 6039 (dark PIR motion sensor, moody - alarms?)
+## Alarm-systems: DONE (5877 hero siren+ladder, 6039 split PIR at night)
+## Pocket candidates (viewed, unassigned): 6113 (ute at hotel entrance, portrait), 6100 (alarm box, near-dup of 6101 - avoid)
 
 ## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
