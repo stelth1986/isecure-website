@@ -69,10 +69,10 @@
         <a class="mega-item all" href="{{ROOT}}services/">All services &rarr;</a>
       </div>
       <div class="mega-feature">
-        <img src="{{ROOT}}media/dsc-6003.webp" alt="iSecure operator watching live camera feeds">
+        <img src="{{ROOT}}media/dsc-6207.webp" alt="Shelves of alarm sensors and detectors in the iSecure warehouse">
         <div class="mf-body">
-          <span class="t"><span class="live-dot"></span> Alert Monitoring Centre</span>
-          <span class="s">Staffed 24 hours a day, 365 days a year. Someone is always on.</span>
+          <span class="t"><span class="live-dot"></span> One accountable team</span>
+          <span class="s">Supplied, installed and monitored by iSecure, 24 hours a day.</span>
           <a class="btn btn-primary" href="{{ROOT}}contact-us/">Get a fast quote <span class="arr">&rarr;</span></a>
         </div>
       </div>
@@ -102,7 +102,7 @@
         <a class="mega-item all" href="{{ROOT}}locations/">All locations &rarr;</a>
       </div>
       <div class="mega-feature">
-        <img src="{{ROOT}}media/dsc-5637.webp" alt="The iSecure fleet at the Kingsgrove headquarters">
+        <img src="{{ROOT}}media/dsc-5674.webp" alt="The iSecure logo and ASIAL member sticker on a van door">
         <div class="mf-body">
           <span class="t">Based in Kingsgrove, Sydney</span>
           <span class="s">Protecting properties across Australia for more than 30 years.</span>

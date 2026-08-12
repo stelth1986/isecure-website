@@ -26,7 +26,11 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## Access-control: DONE (5916 hero device above doorway, 5929 split wiring reader)
 ## Intercom: DONE (6142 hero entry cameras, 6158 split entry unit install)
 ## Monitoring: DONE (6012 hero operator at desk, 5998 timeline tech at rack)
-## Pocket candidates (viewed, unassigned): 6113 (ute at hotel entrance, portrait - victoria?), 6100 (avoid, near-dup), 5863 (two techs at vans with ladder - careers), 6017 (twin white domes warm ceiling - queensland?)
+## Locations hub: DONE (5644 hero, 5651 syd card, 6017 qld card, 6180 vic card, 5989 multi-site split)
+## Sydney: DONE (5863 hero, 5708 intro) - service strip now icon cards
+## Queensland: DONE (6113 hero) - icon cards
+## Victoria: DONE (6221 hero office sign) - icon cards
+## Pocket candidates: 6100 (avoid, near-dup), 6195 (warehouse stock picking - CAREERS), 6207 (sensor stock shelves - careers split?)
 
 ## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
