@@ -386,9 +386,9 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
   .foot-grid{grid-template-columns:1fr}
   .header-cta .btn-primary{display:none}
   .headwrap{padding:10px 10px 0}
-  .headbar{height:62px;padding-inline:8px}
+  .headwrap .headbar{height:62px;padding-inline:8px}
   .headwrap.scrolled .headbar{height:58px}
-  .brand img.lockup{height:34px}
+  .headbar .brand img.lockup{height:34px}
   .reel figure{width:280px}
   .reel figure.tall{width:230px}
   footer{padding:64px 0 36px}
