@@ -36,6 +36,8 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## Home dedupe: DONE (6028 fisheye camera replaces duplicate 6003 in monitor band)
 ## AUDIT 2026-08-12: zero cross-page duplicates (mega images 6207/5674 site-wide by design)
 ## Intro images (2026-08-12 pass): services 5648, cctv 6089, alarms 5870, access 5891, intercom 5926, monitoring 5999, locations 5967, qld 6164, vic 6060, careers 5686 - all unique, no page reuse
+## Patrols (new page): 5668 hero fleet at night, 5660 intro fleet lineup, 5875 alarm-response split (reclaimed from pool), 5656 lock-ups split (reclaimed from pool)
+## Guard-services (new page): AI-generated via Higgsfield nano_banana_pro with logo reference - guard-venue.webp (hero), guard-events.webp (intro), guard-retail.webp + guard-corporate.webp (splits)
 
 ## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
