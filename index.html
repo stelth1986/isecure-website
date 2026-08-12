@@ -3,284 +3,157 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>iSecure | Sydney's Most Trusted Security Experts</title>
+<title>Security Systems Sydney | CCTV, Alarms and Monitoring | iSecure</title>
+<meta name="description" content="Australian owned, family run security. CCTV, alarms, intercoms, access control and 24/7 back-to-base monitoring. 30+ years. Call 1300 012 029.">
 <link rel="icon" href="assets/isecure-favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:ital,wght@0,300;0,400;0,600;0,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --brand-50:#EEF0FF; --brand-100:#DFE2FF; --brand-200:#C2C7FF; --brand-300:#99A0FB;
-  --brand-400:#6B72F0; --brand-500:#4A50E2; --brand-600:#383ED4; --brand-700:#2B30AC;
-  --brand-800:#232786; --brand-950:#10123B;
-  --signal-500:#E23B30; --signal-600:#C4291F;
-  --paper:#FFFFFF; --surface-50:#F6F7FB; --surface-100:#EEF0F6; --line-200:#E2E5EF;
-  --ink-900:#0E1424; --ink-600:#4A5265; --ink-400:#8A91A6;
-  --night-950:#060A18; --night-900:#0A102A; --night-800:#101736;
-  --night-line:rgba(255,255,255,0.08); --night-text:#E8EAF6; --night-muted:#A9AFC9;
-  --r-sm:10px; --r-md:16px; --r-lg:22px; --r-xl:30px; --r-2xl:40px; --r-pill:999px;
-  --shadow-sm:0 1px 2px rgba(10,16,42,.06);
-  --shadow-md:0 6px 20px -6px rgba(10,16,42,.12);
-  --shadow-lg:0 24px 60px -20px rgba(10,16,42,.22);
-  --shadow-glow:0 8px 28px -8px rgba(56,62,212,.45);
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{font-family:'Figtree',sans-serif;font-size:1.0625rem;line-height:1.7;color:var(--ink-900);background:var(--night-950)}
-img{max-width:100%;display:block}
-a{text-decoration:none;color:inherit}
-.container{max-width:1240px;margin-inline:auto;padding-inline:clamp(1.25rem,4vw,2.5rem)}
-.container-wide{max-width:1400px;margin-inline:auto;padding-inline:clamp(1.25rem,4vw,2.5rem)}
-h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600}
-.display{font-size:clamp(2.6rem,6vw,4.9rem);line-height:1.05;letter-spacing:-0.02em}
-h2{font-size:clamp(1.875rem,3.4vw,2.75rem);line-height:1.15;letter-spacing:-0.02em}
-h3{font-size:clamp(1.375rem,2vw,1.625rem);line-height:1.25;letter-spacing:-0.01em}
-h4{font-size:1.125rem;line-height:1.35}
-.lead{font-size:clamp(1.125rem,1.5vw,1.3125rem);line-height:1.6;max-width:55ch}
-p{max-width:65ch}
-.eyebrow{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.14em;line-height:1.2;color:var(--brand-600);display:block;margin-bottom:1rem}
-.eyebrow.on-dark{color:var(--brand-300)}
-.live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--signal-500);animation:pulse 2s ease-in-out infinite;vertical-align:middle;flex:0 0 auto}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-
-/* buttons */
-.btn{display:inline-flex;align-items:center;gap:.55rem;font-family:'Sora',sans-serif;font-weight:600;font-size:.9875rem;border-radius:var(--r-pill);height:52px;padding-inline:1.75rem;transition:all .25s cubic-bezier(.16,1,.3,1);cursor:pointer;border:none;white-space:nowrap}
-.btn .arr{transition:transform .25s cubic-bezier(.16,1,.3,1)}
-.btn:hover .arr{transform:translateX(4px)}
-.btn-primary{background:var(--brand-600);color:#fff}
-.btn-primary:hover{background:var(--brand-700);box-shadow:var(--shadow-glow)}
-.btn-secondary{background:transparent;border:1.5px solid var(--line-200);color:var(--ink-900)}
-.btn-secondary:hover{border-color:var(--brand-600);color:var(--brand-600)}
-.btn-secondary.on-dark{border-color:rgba(255,255,255,.25);color:#fff}
-.btn-secondary.on-dark:hover{border-color:var(--brand-300);color:var(--brand-200)}
-.btn-phone{background:transparent;color:var(--brand-600);padding-inline:1.1rem}
-.btn-phone:hover{opacity:.85}
-.btn-phone.on-dark{color:#fff}
-.btn-invert{background:#fff;color:var(--brand-700)}
-.btn-invert:hover{box-shadow:0 8px 28px -8px rgba(255,255,255,.5)}
-
-/* ===== floating pill header ===== */
-.headwrap{position:fixed;top:0;left:0;right:0;z-index:90;padding:14px clamp(.75rem,2vw,1.5rem) 0;transition:padding .3s cubic-bezier(.16,1,.3,1)}
-.headbar{max-width:1360px;margin-inline:auto;background:rgba(255,255,255,.94);backdrop-filter:blur(16px) saturate(1.4);border-radius:var(--r-pill);box-shadow:var(--shadow-lg);height:72px;display:flex;align-items:center;justify-content:space-between;padding-inline:12px 12px;transition:height .3s cubic-bezier(.16,1,.3,1)}
-.headwrap.scrolled .headbar{height:64px}
-.brand{display:flex;align-items:center;gap:.65rem;padding-left:16px}
-.brand img.mark{height:44px;width:auto}
-.brand .word{font-family:'Sora',sans-serif;font-weight:700;font-style:italic;font-size:1.45rem;letter-spacing:-.02em;line-height:1}
-.brand .word .i{color:var(--signal-500)}
-.brand .word .rest{background:linear-gradient(160deg,#2B30AC 20%,#3B41DC 70%);-webkit-background-clip:text;background-clip:text;color:transparent}
-nav.mainnav{display:flex;align-items:center;gap:26px}
-nav.mainnav a{color:var(--ink-900);font-weight:500;font-size:15px;transition:color .2s}
-nav.mainnav a:hover{color:var(--brand-600)}
-.header-cta{display:flex;align-items:center;gap:.4rem}
-.header-cta .btn{height:48px}
-
-/* ===== video hero ===== */
-.hero{position:relative;height:100svh;min-height:640px;max-height:1080px;overflow:hidden}
-.hero video,.hero .hero-fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,24,.62) 0%,rgba(6,10,24,.18) 45%,rgba(6,10,24,.85) 100%)}
-.hero-content{position:relative;z-index:5;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:clamp(3rem,6vh,5.5rem)}
-.hero-grid{display:grid;grid-template-columns:minmax(0,7.2fr) minmax(0,4.8fr);align-items:end;gap:2rem}
-.hero-eyebrow{color:#fff;opacity:.92;font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.14em;margin-bottom:1.25rem;display:inline-flex;align-items:center;gap:.6rem;background:rgba(6,10,24,.35);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);border-radius:var(--r-pill);padding:.55rem 1.1rem}
-.hero h1{color:#fff;margin-bottom:1.75rem;text-shadow:0 2px 24px rgba(6,10,24,.45)}
-.hero-ctas{display:flex;gap:.75rem;flex-wrap:wrap}
-.hero-lead{color:rgba(255,255,255,.88);font-size:clamp(1.05rem,1.4vw,1.25rem);line-height:1.65;text-align:right;padding-bottom:.4rem;justify-self:end;max-width:44ch}
-.trust-strip{position:relative;z-index:6;border-top:1px solid rgba(255,255,255,.16);margin-top:3rem;padding-top:1.35rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;color:rgba(255,255,255,.8);font-size:.875rem}
-.trust-strip span{display:flex;align-items:center;gap:.55rem}
-.trust-strip img{height:30px;width:auto;opacity:.95}
-.hero-anim{opacity:0;transform:translateY(28px);animation:rise .9s cubic-bezier(.16,1,.3,1) forwards}
-.d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}.d5{animation-delay:.75s}
-@keyframes rise{to{opacity:1;transform:translateY(0)}}
-.scroll-cue{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:6;color:rgba(255,255,255,.55);animation:cue 2s ease-in-out infinite}
-@keyframes cue{0%,100%{opacity:.25;transform:translate(-50%,0)}50%{opacity:.9;transform:translate(-50%,6px)}}
-
-/* ===== sheet ===== */
-.sheet{position:relative;z-index:10;background:var(--paper);border-radius:var(--r-2xl) var(--r-2xl) 0 0;margin-top:-44px}
-section{padding-block:clamp(4.5rem,9vw,7.5rem)}
-.reveal{opacity:0;transform:translateY(24px);transition:opacity .5s cubic-bezier(.16,1,.3,1),transform .5s cubic-bezier(.16,1,.3,1)}
-.reveal.in{opacity:1;transform:none}
-
-/* intro */
-.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2.5rem,5vw,4.5rem);align-items:center}
-.intro-img{border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--shadow-lg);position:relative;aspect-ratio:4/3}
-.intro-img img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.16,1,.3,1)}
-.intro-img:hover img{transform:scale(1.04)}
-.intro-img .tag{position:absolute;left:18px;bottom:18px;background:rgba(6,10,24,.72);backdrop-filter:blur(8px);color:#fff;border-radius:var(--r-pill);padding:.5rem 1.05rem;font-size:.82rem;display:flex;gap:.5rem;align-items:center;border:1px solid rgba(255,255,255,.14)}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:4.5rem;border-top:1px solid var(--line-200);padding-top:2.5rem}
-.stat{padding:0 2rem;border-left:1px solid var(--line-200)}
-.stat:first-child{border-left:none;padding-left:0}
-.stat .num{font-family:'Sora',sans-serif;font-weight:300;font-size:clamp(2.8rem,5.5vw,4.2rem);line-height:1;color:var(--brand-600);font-variant-numeric:tabular-nums;white-space:nowrap}
-.stat .lbl{color:var(--ink-600);font-size:.9375rem;margin-top:.6rem;display:flex;align-items:center;gap:.45rem}
-
-/* services with photo cards */
-.svc-section{background:var(--surface-50)}
-.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:3.5rem}
-.svc-card{position:relative;background:#fff;border:1px solid var(--line-200);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow-sm);transition:transform .25s cubic-bezier(.16,1,.3,1),box-shadow .25s;display:flex;flex-direction:column}
-.svc-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
-.svc-photo{aspect-ratio:16/9;overflow:hidden;position:relative}
-.svc-photo img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}
-.svc-card:hover .svc-photo img{transform:scale(1.06)}
-.svc-photo .chip{position:absolute;top:14px;left:14px;background:rgba(6,10,24,.72);backdrop-filter:blur(8px);color:var(--brand-200);font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:var(--r-sm);padding:.3rem .65rem;border:1px solid rgba(255,255,255,.12)}
-.svc-body{padding:24px 26px 26px;display:flex;flex-direction:column;flex:1}
-.svc-body h3{font-size:1.18rem;margin-bottom:.45rem}
-.svc-body p{color:var(--ink-600);font-size:.95rem;line-height:1.6;margin-bottom:1.1rem}
-.text-link{color:var(--brand-600);font-weight:500;font-size:.95rem;margin-top:auto;display:inline-flex;align-items:center;gap:.4rem}
-.text-link:hover{text-decoration:underline}
-
-/* client marquee */
-.client-band{text-align:center;background:var(--paper)}
-.marquee{overflow:hidden;margin-top:3rem;position:relative}
-.marquee::before,.marquee::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none}
-.marquee::before{left:0;background:linear-gradient(90deg,#fff,transparent)}
-.marquee::after{right:0;background:linear-gradient(-90deg,#fff,transparent)}
-.marquee-track{display:flex;gap:5rem;width:max-content;animation:marq 45s linear infinite;align-items:center}
-.marquee:hover .marquee-track{animation-play-state:paused}
-@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.client-logo{font-family:'Sora',sans-serif;font-weight:700;font-size:1.3rem;color:var(--ink-400);opacity:.6;transition:all .3s;white-space:nowrap;letter-spacing:-.01em}
-.client-logo:hover{opacity:1;color:var(--ink-600)}
-.marquee-caption{color:var(--ink-600);font-size:.9375rem;margin:2.4rem auto 0}
-
-/* monitoring dark band */
-.monitor{background:var(--night-900);border-radius:var(--r-2xl);margin-inline:24px;padding:clamp(4rem,7vw,6rem) 0;position:relative;overflow:hidden;color:var(--night-text)}
-.monitor::before{content:'';position:absolute;inset:0;background:radial-gradient(60% 60% at 50% 0%,rgba(74,80,226,.28),transparent 70%);pointer-events:none}
-.monitor h2{color:var(--night-text)}
-.monitor p{color:var(--night-muted)}
-.mon-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2.5rem,6vw,4.5rem);align-items:center;position:relative}
-.mon-img{border-radius:var(--r-xl);overflow:hidden;position:relative;box-shadow:0 30px 80px -30px rgba(0,0,0,.6)}
-.mon-img img{width:100%;height:100%;object-fit:cover}
-.mon-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(6,10,24,.55));pointer-events:none}
-.mon-live{position:absolute;top:18px;left:18px;background:rgba(6,10,24,.75);backdrop-filter:blur(8px);border:1px solid var(--night-line);border-radius:var(--r-pill);padding:.45rem 1rem;font-size:.82rem;color:#fff;display:flex;align-items:center;gap:.5rem;z-index:2}
-.timeline{margin-top:2.4rem;display:grid;gap:0}
-.tl-step{display:grid;grid-template-columns:52px 1fr;gap:1.15rem;position:relative;padding-bottom:1.6rem}
-.tl-step:last-child{padding-bottom:0}
-.tl-step::before{content:'';position:absolute;left:25px;top:42px;bottom:4px;border-left:2px dashed rgba(153,160,251,.25)}
-.tl-step:last-child::before{display:none}
-.tl-num{width:52px;height:52px;flex:0 0 auto;border-radius:50%;border:1px solid rgba(153,160,251,.3);background:var(--night-800);display:flex;align-items:center;justify-content:center;font-family:'Sora',sans-serif;font-weight:300;font-size:1.05rem;color:var(--brand-300)}
-.tl-step h4{color:var(--night-text);margin-bottom:.2rem}
-.tl-step p{font-size:.95rem}
-.mon-chips{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:2.2rem}
-.chip-badge{border:1px solid var(--night-line);background:var(--night-800);border-radius:var(--r-pill);padding:.45rem 1rem;font-size:.85rem;color:var(--night-muted);display:inline-flex;align-items:center;gap:.5rem}
-.chip-badge img{height:24px;width:auto}
-
-/* difference splits */
-.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
-.split + .split{margin-top:clamp(4rem,7vw,6rem)}
-.split-img{border-radius:var(--r-xl);overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow-md)}
-.split-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}
-.split:hover .split-img img{transform:scale(1.04)}
-.split h3{font-size:clamp(1.55rem,2.3vw,1.95rem);margin-bottom:1rem}
-.split p{color:var(--ink-600)}
-.feat-list{list-style:none;margin-top:1.5rem;display:grid;gap:.7rem}
-.feat-list li{display:flex;gap:.7rem;align-items:flex-start;color:var(--ink-900);font-weight:500;font-size:.98rem}
-.feat-list svg{flex:0 0 auto;margin-top:3px;color:var(--brand-600)}
-
-/* gallery reel */
-.reel-section{background:var(--surface-50);overflow:hidden}
-.reel{display:flex;gap:1.1rem;width:max-content;animation:reel 60s linear infinite;margin-top:3rem}
-.reel:hover{animation-play-state:paused}
-@keyframes reel{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.reel figure{width:340px;flex:0 0 auto;border-radius:var(--r-lg);overflow:hidden;position:relative;aspect-ratio:4/3;box-shadow:var(--shadow-sm)}
-.reel figure.tall{aspect-ratio:3/4;width:280px}
-.reel img{width:100%;height:100%;object-fit:cover}
-.reel figcaption{position:absolute;left:0;right:0;bottom:0;padding:2rem 1.1rem .9rem;background:linear-gradient(180deg,transparent,rgba(6,10,24,.72));color:#fff;font-size:.82rem;font-weight:500}
-
-/* process */
-.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;margin-top:3.5rem;position:relative}
-.process-grid::before{content:'';position:absolute;top:24px;left:8%;right:8%;border-top:2px dashed var(--line-200);z-index:0}
-.step{position:relative;z-index:1;background:#fff;padding-right:1rem}
-.step .num{font-family:'Sora',sans-serif;font-weight:300;font-size:48px;color:var(--brand-300);line-height:1;background:#fff;display:inline-block;padding-right:1rem}
-.step h4{margin:.9rem 0 .5rem}
-.step p{color:var(--ink-600);font-size:.95rem}
-
-/* FAQ */
-.faq{background:var(--surface-50)}
-.faq-list{margin-top:3rem;display:grid;gap:.9rem;max-width:820px}
-.faq-item{background:#fff;border:1px solid var(--line-200);border-radius:var(--r-md);overflow:hidden}
-.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.25rem 1.5rem;background:none;border:none;cursor:pointer;font-family:'Sora',sans-serif;font-weight:600;font-size:1.06rem;color:var(--ink-900);text-align:left}
-.faq-q svg{flex:0 0 auto;transition:transform .35s cubic-bezier(.65,0,.35,1);color:var(--brand-600)}
-.faq-item.open .faq-q svg{transform:rotate(180deg)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .35s cubic-bezier(.65,0,.35,1)}
-.faq-a p{padding:0 1.5rem 1.4rem;color:var(--ink-600);font-size:.98rem}
-
-/* CTA */
-.cta-wrap{padding-block:clamp(4.5rem,9vw,7.5rem)}
-.cta-band{border-radius:var(--r-2xl);background:linear-gradient(135deg,#2B30AC 0%,#4A50E2 60%,#6B72F0 100%);position:relative;overflow:hidden;text-align:center;padding:clamp(4rem,7vw,6rem) 2rem}
-.cta-band::before{content:'';position:absolute;inset:0;background:radial-gradient(60% 60% at 50% 0%,rgba(255,255,255,.14),transparent 70%)}
-.cta-band h2{color:#fff;position:relative}
-.cta-band .lead{color:var(--brand-100);margin:1rem auto 2.2rem;position:relative}
-.cta-band .btns{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap;position:relative}
-.cta-small{margin-top:2rem;color:rgba(255,255,255,.78);font-size:.875rem;display:flex;gap:1.5rem;justify-content:center;position:relative;flex-wrap:wrap}
-.cta-small span{display:flex;align-items:center;gap:.5rem}
-
-/* footer */
-footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;color:var(--night-muted);padding:88px 0 44px}
-.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:3rem}
-.foot-grid h5{font-family:'Sora',sans-serif;color:var(--night-text);font-size:.95rem;margin-bottom:1.2rem}
-.foot-grid ul{list-style:none;display:grid;gap:.6rem}
-.foot-grid a{color:var(--night-muted);font-size:.9375rem;transition:color .2s}
-.foot-grid a:hover{color:#fff}
-.foot-brand .brandline{display:flex;align-items:center;gap:.65rem}
-.foot-brand .brandline img{height:46px;width:auto}
-.foot-brand .word{font-family:'Sora',sans-serif;font-weight:700;font-style:italic;font-size:1.5rem;letter-spacing:-.02em;color:#fff}
-.foot-brand .word .i{color:var(--signal-500)}
-.foot-brand p{font-size:.9375rem;margin-top:1.2rem;max-width:30ch}
-.foot-phone{font-family:'Sora',sans-serif;font-weight:600;font-size:1.35rem;color:#fff!important}
-.foot-legal{border-top:1px solid var(--night-line);margin-top:3.5rem;padding-top:2rem;display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:center;font-size:.85rem}
-.foot-legal .asial{display:flex;align-items:center;gap:.8rem}
-.foot-legal .asial img{height:34px;width:auto}
-
-@media(max-width:1100px){
-  nav.mainnav{display:none}
-}
-@media(max-width:1024px){
-  .hero-grid{grid-template-columns:1fr}
-  .hero-lead{text-align:left;justify-self:start;padding-top:1.25rem}
-  .intro-grid,.mon-grid{grid-template-columns:1fr}
-  .svc-grid{grid-template-columns:1fr 1fr}
-  .foot-grid{grid-template-columns:1fr 1fr}
-}
-@media(max-width:700px){
-  .stats{grid-template-columns:1fr 1fr;gap:2rem 0}
-  .stat:nth-child(3){border-left:none;padding-left:0}
-  .svc-grid{grid-template-columns:1fr}
-  .split{grid-template-columns:1fr}
-  .process-grid{grid-template-columns:1fr}
-  .process-grid::before{display:none}
-  .trust-strip{display:grid;grid-template-columns:1fr 1fr}
-  .monitor{margin-inline:12px}
-  .foot-grid{grid-template-columns:1fr}
-  .header-cta .btn-primary{display:none}
-}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important}
-  .reel,.marquee-track{animation:none!important}
-}
-</style>
+<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
-<!-- floating pill header -->
+<!-- floating pill header with mega menu -->
 <div class="headwrap" id="headwrap">
   <div class="headbar">
-    <a href="#" class="brand" aria-label="iSecure home">
+    <a href="index.html" class="brand" aria-label="iSecure home">
       <img class="mark" src="assets/isecure-favicon.png" alt="iSecure eye logo">
       <span class="word"><span class="i">i</span><span class="rest">Secure</span></span>
     </a>
-    <nav class="mainnav">
-      <a href="#">Home</a>
-      <a href="#">About us</a>
-      <a href="#services">Services</a>
-      <a href="#">Locations</a>
-      <a href="#">Careers</a>
+    <nav class="mainnav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about-us/">About us</a>
+      <button type="button" data-mega="services" aria-expanded="false" aria-haspopup="true">Services
+        <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <button type="button" data-mega="locations" aria-expanded="false" aria-haspopup="true">Locations
+        <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <a href="careers/">Careers</a>
     </nav>
     <div class="header-cta">
       <a class="btn btn-phone" href="tel:1300012029">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         1300 012 029
       </a>
-      <a class="btn btn-primary" href="#contact">Get a fast quote <span class="arr">→</span></a>
+      <a class="btn btn-primary" href="contact-us/">Get a fast quote <span class="arr">&rarr;</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- services mega panel -->
+  <div class="mega" data-mega="services" role="menu" aria-label="Services menu">
+    <div class="mega-grid">
+      <div class="mega-items">
+        <a class="mega-item" href="cctv/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16.75 13.96 19 15.25a2 2 0 0 0 3-1.73V6.48a2 2 0 0 0-3-1.73l-2.25 1.29"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg></span>
+          <span><span class="t">CCTV surveillance <span class="tagchip">View</span></span><span class="s">HD cameras, night vision and live viewing on your phone.</span></span>
+        </a>
+        <a class="mega-item" href="alarm-systems/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
+          <span><span class="t">Alarm systems <span class="tagchip">Detect</span></span><span class="s">Back-to-base alarms for homes and businesses.</span></span>
+        </a>
+        <a class="mega-item" href="access-control/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+          <span><span class="t">Access control <span class="tagchip">iSee</span></span><span class="s">Keypads, fobs and managed credentials for every door.</span></span>
+        </a>
+        <a class="mega-item" href="intercom/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg></span>
+          <span><span class="t">Intercom systems <span class="tagchip">iSee</span></span><span class="s">See and speak to visitors before you open the door.</span></span>
+        </a>
+        <a class="mega-item" href="monitoring/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span>
+          <span><span class="t">Alarm monitoring <span class="tagchip">Alert</span></span><span class="s">Our 24/7 centre watches and responds instantly.</span></span>
+        </a>
+        <a class="mega-item all" href="services/">All services &rarr;</a>
+      </div>
+      <div class="mega-feature">
+        <img src="media/dsc-6003.jpg" alt="iSecure operator watching live camera feeds">
+        <div class="mf-body">
+          <span class="t"><span class="live-dot"></span> Alert Monitoring Centre</span>
+          <span class="s">Staffed 24 hours a day, 365 days a year. Someone is always on.</span>
+          <a class="btn btn-primary" href="contact-us/">Get a fast quote <span class="arr">&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- locations mega panel -->
+  <div class="mega" data-mega="locations" role="menu" aria-label="Locations menu">
+    <div class="mega-grid">
+      <div class="mega-items">
+        <a class="mega-item" href="sydney/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <span><span class="t">Sydney</span><span class="s">Our home base: Greater Sydney and the Central Coast, from Kingsgrove.</span></span>
+        </a>
+        <a class="mega-item" href="queensland/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <span><span class="t">Queensland</span><span class="s">Brisbane and south-east Queensland coverage.</span></span>
+        </a>
+        <a class="mega-item" href="victoria/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <span><span class="t">Victoria</span><span class="s">Melbourne and Victoria through Protect 24x7.</span></span>
+        </a>
+        <a class="mega-item" href="locations/">
+          <span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>
+          <span><span class="t">Nationwide coverage <span class="tagchip">Protect</span></span><span class="s">One partner for every site, in every state.</span></span>
+        </a>
+        <a class="mega-item all" href="locations/">All locations &rarr;</a>
+      </div>
+      <div class="mega-feature">
+        <img src="media/dsc-5637.jpg" alt="The iSecure fleet at the Kingsgrove headquarters">
+        <div class="mf-body">
+          <span class="t">Based in Kingsgrove, Sydney</span>
+          <span class="s">Protecting properties across Australia for more than 30 years.</span>
+          <a class="btn btn-primary" href="contact-us/">Talk to us <span class="arr">&rarr;</span></a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<!-- mobile drawer -->
+<div class="drawer-scrim" id="drawerScrim"></div>
+<aside class="drawer" id="drawer" aria-label="Mobile menu">
+  <div class="drawer-top">
+    <span class="word" style="font-family:'Sora',sans-serif;font-weight:700;font-style:italic;font-size:1.3rem;color:#fff"><span style="color:#E23B30">i</span>Secure</span>
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about-us/">About us</a>
+    <button type="button" data-sub="subServices" aria-expanded="false">Services
+      <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="sub" id="subServices">
+      <a href="cctv/">CCTV surveillance</a>
+      <a href="alarm-systems/">Alarm systems</a>
+      <a href="access-control/">Access control</a>
+      <a href="intercom/">Intercom systems</a>
+      <a href="monitoring/">Alarm monitoring</a>
+      <a href="services/">All services</a>
+    </div>
+    <button type="button" data-sub="subLocations" aria-expanded="false">Locations
+      <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="sub" id="subLocations">
+      <a href="sydney/">Sydney</a>
+      <a href="queensland/">Queensland</a>
+      <a href="victoria/">Victoria</a>
+      <a href="locations/">All locations</a>
+    </div>
+    <a href="careers/">Careers</a>
+    <a href="contact-us/">Contact</a>
+  </nav>
+  <div class="drawer-cta">
+    <a class="btn btn-primary" href="contact-us/">Get a fast quote <span class="arr">&rarr;</span></a>
+    <a class="btn btn-secondary on-dark" href="tel:1300012029">Call 1300 012 029</a>
+  </div>
+</aside>
 
 <!-- video hero -->
 <div class="hero">
@@ -294,7 +167,7 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
         <span class="hero-eyebrow hero-anim d1"><span class="live-dot"></span> Australian owned. Family run. 30+ years.</span>
         <h1 class="display hero-anim d2">Sydney's most trusted name in security.</h1>
         <div class="hero-ctas hero-anim d3">
-          <a class="btn btn-primary" href="#contact">Get a fast quote <span class="arr">→</span></a>
+          <a class="btn btn-primary" href="contact-us/">Get a fast quote <span class="arr">&rarr;</span></a>
           <a class="btn btn-phone on-dark" href="tel:1300012029">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             1300 012 029
@@ -317,14 +190,13 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
 
 <main class="sheet">
 
-  <!-- positioning intro with team photo -->
   <section>
     <div class="container">
       <div class="intro-grid">
         <div class="reveal">
           <span class="eyebrow">Why iSecure</span>
           <h2>A family business that takes protection personally.</h2>
-          <p class="lead" style="color:var(--ink-600);margin-top:1.2rem">iSecure is a proudly Australian owned, family run security company based in Kingsgrove, Sydney. For more than 30 years we have protected homes, families and some of Australia's best known businesses. When you call us, you speak to the people who do the work: no call centres, no run-around, and a fast response, guaranteed.</p>
+          <p class="lead muted" style="margin-top:1.2rem">iSecure is a proudly Australian owned, family run security company based in Kingsgrove, Sydney. For more than 30 years we have protected homes, families and some of Australia's best known businesses. When you call us, you speak to the people who do the work: no call centres, no run-around, and a fast response, guaranteed.</p>
         </div>
         <div class="intro-img reveal">
           <img src="media/dsc-5694.jpg" alt="The iSecure team standing with their vehicles at the Kingsgrove headquarters">
@@ -340,44 +212,42 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     </div>
   </section>
 
-  <!-- services with real photos -->
   <section class="svc-section" id="services">
     <div class="container">
       <div class="reveal">
         <span class="eyebrow">What we do</span>
         <h2>Everything you need to secure your property.</h2>
-        <p class="lead" style="color:var(--ink-600);margin-top:1rem">Five services, one accountable team. Supplied, installed and monitored by iSecure.</p>
+        <p class="lead muted" style="margin-top:1rem">Five services, one accountable team. Supplied, installed and monitored by iSecure.</p>
       </div>
       <div class="svc-grid">
-        <a href="#" class="svc-card reveal">
+        <a href="cctv/" class="svc-card reveal">
           <div class="svc-photo"><span class="chip">View</span><img src="media/dsc-6038.jpg" alt="Two black dome cameras installed on a green wall"></div>
-          <div class="svc-body"><h3>CCTV surveillance</h3><p>HD camera systems with night vision, smart motion alerts and live remote viewing from your phone.</p><span class="text-link">Explore CCTV →</span></div>
+          <div class="svc-body"><h3>CCTV surveillance</h3><p>HD camera systems with night vision, smart motion alerts and live remote viewing from your phone.</p><span class="text-link">Explore CCTV &rarr;</span></div>
         </a>
-        <a href="#" class="svc-card reveal">
+        <a href="alarm-systems/" class="svc-card reveal">
           <div class="svc-photo"><span class="chip">Detect</span><img src="media/dsc-6101.jpg" alt="A monitored alarm control panel installed by iSecure"></div>
-          <div class="svc-body"><h3>Alarm systems</h3><p>Back-to-base alarms with motion, entry and glass break detection for homes and businesses.</p><span class="text-link">Explore alarms →</span></div>
+          <div class="svc-body"><h3>Alarm systems</h3><p>Back-to-base alarms with motion, entry and glass break detection for homes and businesses.</p><span class="text-link">Explore alarms &rarr;</span></div>
         </a>
-        <a href="#" class="svc-card reveal">
+        <a href="access-control/" class="svc-card reveal">
           <div class="svc-photo"><span class="chip">iSee</span><img src="media/dsc-5901.jpg" alt="iSecure technicians fitting security hardware to a doorway"></div>
-          <div class="svc-body"><h3>Access control</h3><p>Decide exactly who can enter, where and when, with keypads, fobs and managed credentials.</p><span class="text-link">Explore access control →</span></div>
+          <div class="svc-body"><h3>Access control</h3><p>Decide exactly who can enter, where and when, with keypads, fobs and managed credentials.</p><span class="text-link">Explore access control &rarr;</span></div>
         </a>
-        <a href="#" class="svc-card reveal">
+        <a href="intercom/" class="svc-card reveal">
           <div class="svc-photo"><span class="chip">iSee</span><img src="media/dsc-6110.jpg" alt="A hotel lobby protected by an iSecure ceiling camera"></div>
-          <div class="svc-body"><h3>Intercom systems</h3><p>See and speak to whoever is at the door before you let them in, from anywhere.</p><span class="text-link">Explore intercoms →</span></div>
+          <div class="svc-body"><h3>Intercom systems</h3><p>See and speak to whoever is at the door before you let them in, from anywhere.</p><span class="text-link">Explore intercoms &rarr;</span></div>
         </a>
-        <a href="#" class="svc-card reveal">
+        <a href="monitoring/" class="svc-card reveal">
           <div class="svc-photo"><span class="chip">Alert</span><img src="media/dsc-6003.jpg" alt="An operator watching a wall of live CCTV feeds"></div>
-          <div class="svc-body"><h3>Alarm monitoring</h3><p>Our 24/7 monitoring centre watches your system and responds the moment something happens.</p><span class="text-link">Explore monitoring →</span></div>
+          <div class="svc-body"><h3>Alarm monitoring</h3><p>Our 24/7 monitoring centre watches your system and responds the moment something happens.</p><span class="text-link">Explore monitoring &rarr;</span></div>
         </a>
-        <a href="#" class="svc-card reveal">
+        <a href="locations/" class="svc-card reveal">
           <div class="svc-photo"><span class="chip">Protect</span><img src="media/dsc-5637.jpg" alt="The iSecure fleet lined up at the Kingsgrove warehouse"></div>
-          <div class="svc-body"><h3>Nationwide coverage</h3><p>One security partner for every site, across Sydney, Queensland, Victoria and beyond.</p><span class="text-link">Explore locations →</span></div>
+          <div class="svc-body"><h3>Nationwide coverage</h3><p>One security partner for every site, across Sydney, Queensland, Victoria and beyond.</p><span class="text-link">Explore locations &rarr;</span></div>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- client band -->
   <section class="client-band">
     <div class="container reveal">
       <span class="eyebrow">Who we protect</span>
@@ -400,12 +270,11 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     <div class="container reveal"><p class="marquee-caption" style="margin-inline:auto">From family homes to national retail chains, the same team looks after them all.</p></div>
   </section>
 
-  <!-- monitoring dark band -->
   <div class="monitor reveal">
     <div class="container">
       <div class="mon-grid">
         <div class="mon-img">
-          <div class="mon-live"><span class="live-dot"></span> REC · Monitoring live</div>
+          <div class="mon-live"><span class="live-dot"></span> REC &middot; Monitoring live</div>
           <img src="media/dsc-6003.jpg" alt="An iSecure operator watching a wall of sixteen live camera feeds">
         </div>
         <div>
@@ -426,7 +295,6 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     </div>
   </div>
 
-  <!-- difference splits -->
   <section>
     <div class="container">
       <div class="reveal" style="margin-bottom:3.5rem">
@@ -460,7 +328,6 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     </div>
   </section>
 
-  <!-- photo reel -->
   <section class="reel-section">
     <div class="container reveal">
       <span class="eyebrow">On the job</span>
@@ -475,7 +342,6 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
       <figure><img src="media/dsc-5646.jpg" alt="The iSecure eye logo on a fleet van"><figcaption>The fleet</figcaption></figure>
       <figure class="tall"><img src="media/dsc-6029.jpg" alt="Ceiling camera glowing in a dark venue"><figcaption>Always watching</figcaption></figure>
       <figure><img src="media/dsc-6074.jpg" alt="A hospitality venue covered by iSecure cameras"><figcaption>Hospitality coverage</figcaption></figure>
-      <!-- duplicate for seamless loop -->
       <figure><img src="media/dsc-5872.jpg" alt=""><figcaption>Job briefing, Sydney</figcaption></figure>
       <figure class="tall"><img src="media/dsc-5913.jpg" alt=""><figcaption>Commercial install</figcaption></figure>
       <figure><img src="media/dsc-5971.jpg" alt=""><figcaption>Service station fit-out</figcaption></figure>
@@ -487,7 +353,6 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     </div>
   </section>
 
-  <!-- process -->
   <section>
     <div class="container">
       <div class="reveal">
@@ -502,7 +367,6 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     </div>
   </section>
 
-  <!-- FAQ -->
   <section class="faq">
     <div class="container">
       <div class="reveal">
@@ -530,14 +394,13 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
     </div>
   </section>
 
-  <!-- CTA -->
-  <div class="cta-wrap" id="contact">
+  <div class="cta-wrap">
     <div class="container reveal">
       <div class="cta-band">
         <h2>Protect what matters. Talk to iSecure today.</h2>
         <p class="lead">Fast, honest advice from Sydney's most trusted security experts.</p>
         <div class="btns">
-          <a class="btn btn-invert" href="#">Get a fast quote <span class="arr">→</span></a>
+          <a class="btn btn-invert" href="contact-us/">Get a fast quote <span class="arr">&rarr;</span></a>
           <a class="btn btn-phone on-dark" href="tel:1300012029">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             1300 012 029
@@ -556,7 +419,7 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
   <div class="container">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a href="#" class="brandline">
+        <a href="index.html" class="brandline">
           <img src="assets/isecure-favicon.png" alt="iSecure eye logo">
           <span class="word"><span class="i">i</span>Secure</span>
         </a>
@@ -565,20 +428,20 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
       <div>
         <h5>Services</h5>
         <ul>
-          <li><a href="#">View CCTV Surveillance</a></li>
-          <li><a href="#">Detect Alarm Systems</a></li>
-          <li><a href="#">iSee Access Control</a></li>
-          <li><a href="#">iSee Intercom Systems</a></li>
-          <li><a href="#">Alert Monitoring Centre</a></li>
+          <li><a href="cctv/">View CCTV Surveillance</a></li>
+          <li><a href="alarm-systems/">Detect Alarm Systems</a></li>
+          <li><a href="access-control/">iSee Access Control</a></li>
+          <li><a href="intercom/">iSee Intercom Systems</a></li>
+          <li><a href="monitoring/">Alert Monitoring Centre</a></li>
         </ul>
       </div>
       <div>
         <h5>Locations</h5>
         <ul>
-          <li><a href="#">Sydney</a></li>
-          <li><a href="#">Queensland</a></li>
-          <li><a href="#">Victoria</a></li>
-          <li><a href="#">Nationwide coverage</a></li>
+          <li><a href="sydney/">Sydney</a></li>
+          <li><a href="queensland/">Queensland</a></li>
+          <li><a href="victoria/">Victoria</a></li>
+          <li><a href="locations/">Nationwide coverage</a></li>
         </ul>
       </div>
       <div>
@@ -592,44 +455,12 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
       </div>
     </div>
     <div class="foot-legal">
-      <span class="asial"><img src="assets/asial-badge.png" alt="ASIAL member badge"> ABN 68 614 662 976 · NSW Master Licence 000103530</span>
-      <span>© 2026 iSecure. All rights reserved. · Privacy</span>
+      <span class="asial"><img src="assets/asial-badge.png" alt="ASIAL member badge"> ABN 68 614 662 976 &middot; NSW Master Licence 000103530</span>
+      <span>&copy; 2026 iSecure. All rights reserved. &middot; <a href="privacy/">Privacy</a></span>
     </div>
   </div>
 </footer>
 
-<script>
-// header shrink
-const headwrap=document.getElementById('headwrap');
-addEventListener('scroll',()=>{headwrap.classList.toggle('scrolled',scrollY>=64)},{passive:true});
-
-// pause hero video when scrolled past / tab hidden
-const heroVideo=document.getElementById('heroVideo');
-if(matchMedia('(prefers-reduced-motion: reduce)').matches){heroVideo.removeAttribute('autoplay');heroVideo.pause();}
-else{
-  new IntersectionObserver(es=>es.forEach(e=>{e.isIntersecting?heroVideo.play().catch(()=>{}):heroVideo.pause()}),{threshold:.1}).observe(heroVideo);
-  document.addEventListener('visibilitychange',()=>{document.hidden?heroVideo.pause():heroVideo.play().catch(()=>{})});
-}
-
-// scroll reveal
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.2});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-
-// stat counters
-const cio=new IntersectionObserver(es=>es.forEach(e=>{
-  if(!e.isIntersecting)return;cio.unobserve(e.target);
-  const el=e.target,target=+el.dataset.count,suf=el.dataset.suffix||'',t0=performance.now();
-  const tick=t=>{const p=Math.min((t-t0)/1200,1),v=Math.round(target*(1-Math.pow(1-p,3)));el.textContent=v+suf;if(p<1)requestAnimationFrame(tick)};
-  requestAnimationFrame(tick);
-}),{threshold:.5});
-document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
-
-// FAQ
-document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>{
-  const item=btn.parentElement,open=item.classList.contains('open');
-  document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-a').style.maxHeight=null});
-  if(!open){item.classList.add('open');const a=item.querySelector('.faq-a');a.style.maxHeight=a.scrollHeight+'px'}
-}));
-</script>
+<script src="js/site.js"></script>
 </body>
 </html>

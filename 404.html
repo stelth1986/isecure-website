@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page not found | iSecure</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/isecure-website/assets/isecure-favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;600;700&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--brand-300:#99A0FB;--brand-600:#383ED4;--brand-700:#2B30AC;--signal-500:#E23B30;--night-950:#060A18;--night-muted:#A9AFC9;--r-pill:999px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Figtree',sans-serif;background:var(--night-950);color:#E8EAF6;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;padding:2rem}
+body::before{content:'';position:absolute;inset:0;background:radial-gradient(60% 60% at 50% 20%,rgba(74,80,226,.25),transparent 70%)}
+.inner{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:1.2rem}
+img.eye{height:90px;width:auto;opacity:.92}
+h1{font-family:'Sora',sans-serif;font-weight:600;font-size:clamp(2rem,5vw,3.2rem);letter-spacing:-.02em;color:#fff}
+p{color:var(--night-muted);max-width:44ch;line-height:1.7}
+.btns{display:flex;gap:.8rem;flex-wrap:wrap;justify-content:center;margin-top:.8rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-family:'Sora',sans-serif;font-weight:600;font-size:.95rem;border-radius:var(--r-pill);height:50px;padding-inline:1.6rem;text-decoration:none;transition:all .25s}
+.btn-invert{background:#fff;color:var(--brand-700)}
+.btn-invert:hover{box-shadow:0 8px 28px -8px rgba(255,255,255,.5)}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.25);color:#fff}
+.btn-ghost:hover{border-color:var(--brand-300);color:var(--brand-300)}
+</style>
+</head>
+<body>
+<div class="inner">
+  <img class="eye" src="/isecure-website/assets/isecure-favicon.png" alt="The iSecure eye mark" onerror="this.src='assets/isecure-favicon.png'">
+  <h1>This page is off the grid.</h1>
+  <p>The page you are after does not exist or has moved. Everything worth finding is one click away.</p>
+  <div class="btns">
+    <a class="btn btn-invert" href="/isecure-website/">Back to home</a>
+    <a class="btn btn-ghost" href="/isecure-website/services/">Our services</a>
+    <a class="btn btn-ghost" href="tel:1300012029">1300 012 029</a>
+  </div>
+</div>
+</body>
+</html>
