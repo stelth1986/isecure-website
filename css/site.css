@@ -128,7 +128,7 @@ nav.mainnav button[aria-expanded="true"] .chev{transform:rotate(180deg)}
 .hero h1{color:#fff;margin-bottom:1.75rem;text-shadow:0 2px 24px rgba(6,10,24,.45)}
 .hero-ctas{display:flex;gap:.75rem;flex-wrap:wrap}
 .hero-lead{color:rgba(255,255,255,.88);font-size:clamp(1.05rem,1.4vw,1.25rem);line-height:1.65;text-align:right;padding-bottom:.4rem;justify-self:end;max-width:44ch}
-.trust-strip{position:relative;z-index:6;border-top:1px solid rgba(255,255,255,.16);margin-top:3rem;padding-top:1.35rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;color:rgba(255,255,255,.8);font-size:.875rem}
+.trust-strip{position:relative;z-index:6;border-top:1px solid rgba(255,255,255,.16);margin-top:3rem;padding-top:1.35rem;padding-bottom:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;color:rgba(255,255,255,.8);font-size:.875rem}
 .trust-strip span{display:flex;align-items:center;gap:.55rem}
 .trust-strip img{height:30px;width:auto;opacity:.95}
 .scroll-cue{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:6;color:rgba(255,255,255,.55);animation:cue 2s ease-in-out infinite}
