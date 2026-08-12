@@ -3,8 +3,7 @@
     <div class="foot-grid">
       <div class="foot-brand">
         <a href="{{ROOT}}index.html" class="brandline">
-          <img src="{{ROOT}}assets/isecure-favicon.png" alt="iSecure eye logo">
-          <span class="word"><span class="i">i</span>Secure</span>
+          <img src="{{ROOT}}assets/isecure-logo-horizontal.png" alt="iSecure" style="height:52px;width:auto">
         </a>
         <p>Australian owned, family run security. Protecting homes and businesses for more than 30 years.</p>
       </div>
