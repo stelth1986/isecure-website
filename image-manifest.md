@@ -19,9 +19,10 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 | 6162 | home | split B |
 | 5872, 5913, 5971, 6128, 6189, 5646, 6029, 6074 | home | reel |
 
-## To reassign with fresh photos (loop queue)
+## About-us: DONE (5678 hero owners, 5656 story fleet undercover, 5875 accreditation siren box)
+## Pocket candidates (viewed, unassigned): 6014 (white dome camera ceiling)
 
-1. about-us (hero, story img, accreditation img) - DONE? no
+## To reassign with fresh photos (loop queue)
 2. services hub (hero + 5 splits)
 3. cctv (hero, split, related none)
 4. alarm-systems (hero, split)
