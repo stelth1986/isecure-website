@@ -6,6 +6,7 @@
           <img src="{{ROOT}}assets/isecure-logo-horizontal.png" alt="iSecure" style="height:52px;width:auto">
         </a>
         <p>Australian owned, family run security. Protecting homes and businesses for over 30 years.</p>
+        <span class="foot-partner"><img src="{{ROOT}}assets/ims-partner-badge.png" alt="Proud partner of Intelligent Monitoring Solutions, A1/R1A graded electronic security monitoring"></span>
       </div>
       <div>
         <h5>Services</h5>
