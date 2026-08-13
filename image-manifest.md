@@ -57,3 +57,6 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 ## Sampled and rejected/available
 
 (record candidates viewed per iteration here)
+
+## Video-monitoring (new page): 6005 hero operator+wall, 6015 intro ceiling PTZ, 6007 split video wall
+## Gallery (new page): 5645, 5914, 5876, 5933, 6071, 5870, 6156, 5973, 6103, 5926, 6217, 5929
