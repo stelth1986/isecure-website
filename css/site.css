@@ -85,6 +85,8 @@ nav.mainnav button[aria-expanded="true"] .chev{transform:rotate(180deg)}
 .mega-item .t .tagchip{background:var(--brand-50);color:var(--brand-700);border:1px solid var(--brand-100);font-size:.62rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:6px;padding:.12rem .45rem}
 .mega-item:hover .t .tagchip{background:#fff}
 .mega-item .s{font-size:.9rem;color:var(--ink-600);line-height:1.5;margin-top:.2rem}
+.mega-items-3{grid-template-columns:1fr 1fr 1fr}
+.mega-items-3 .mega-item .s{font-size:.84rem}
 .mega-item.all{grid-column:1/-1;justify-content:center;background:var(--surface-50);border:1px solid var(--line-200);font-family:'Sora',sans-serif;font-weight:600;font-size:.95rem;color:var(--brand-600);padding:.85rem}
 .mega-item.all:hover{border-color:var(--brand-600);background:var(--brand-50)}
 .mega-feature{border-radius:var(--r-md);overflow:hidden;position:relative;min-height:230px;display:flex;align-items:flex-end}

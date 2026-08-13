@@ -27,6 +27,11 @@
           <li><a href="{{ROOT}}sydney/">New South Wales</a></li>
           <li><a href="{{ROOT}}queensland/">Queensland</a></li>
           <li><a href="{{ROOT}}victoria/">Victoria</a></li>
+          <li><a href="{{ROOT}}act/">Australian Capital Territory</a></li>
+          <li><a href="{{ROOT}}wa/">Western Australia</a></li>
+          <li><a href="{{ROOT}}sa/">South Australia</a></li>
+          <li><a href="{{ROOT}}nt/">Northern Territory</a></li>
+          <li><a href="{{ROOT}}tas/">Tasmania</a></li>
           <li><a href="{{ROOT}}locations/">Nationwide coverage</a></li>
         </ul>
       </div>
