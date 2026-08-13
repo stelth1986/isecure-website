@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy | iSecure</title>
-<meta name="description" content="How iSecure collects, uses and protects your personal information. Client privacy is of paramount importance to us.">
+<title>Feedback | iSecure</title>
+<meta name="description" content="Tell us how we did. Feedback goes straight to the family that runs iSecure.">
 <link rel="icon" href="../assets/isecure-favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,46 +173,55 @@
 
 <div class="page-hero plain" style="height:38svh;min-height:320px">
   <div class="hero-content container-wide">
-    <h1 class="hero-anim d2">Client privacy is of paramount importance to us.</h1>
+    <h1 class="hero-anim d2">Tell us how we did.</h1>
+    <p class="hero-lead2 hero-anim d3">Your feedback goes straight to the family that runs the business, and it shapes how we work.</p>
   </div>
 </div>
 
 <main class="sheet">
   <div class="container">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Privacy policy</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Feedback</span></nav>
   </div>
 
   <section class="tight">
     <div class="container">
-      <div class="prose reveal">
-        <p>This policy explains, in plain English, what personal information iSecure collects, how we use it and how we protect it. We handle personal information in line with the Australian Privacy Principles (APPs) under the Privacy Act 1988 (Cth).</p>
-
-        <h2>What we collect</h2>
-        <p>When you contact us or request a quote, we collect what you give us: your name, phone number, email address, property address or suburb, and details about the security help you need. If you apply for a job, we also collect the information in your application.</p>
-        <p>If you become a client, we hold the information needed to design, install and monitor your system, such as site details, nominated contacts for alarm response, and service history.</p>
-
-        <h2>How we use it</h2>
-        <ul>
-          <li>To respond to your enquiry and provide quotes.</li>
-          <li>To deliver, service and monitor your security system, including contacting you and your nominated contacts when an alarm event occurs.</li>
-          <li>To manage billing and our business records.</li>
-          <li>To consider your job application, if you send one.</li>
-        </ul>
-        <p>We do not sell your personal information. We do not share it with third parties except where needed to deliver our services (for example, notifying police during an alarm response you have asked us to act on), or where the law requires it.</p>
-
-        <h2>Service providers</h2>
-        <p>Our website forms are delivered to our own inbox by our email processing provider. Basic, anonymised website analytics may be collected to understand how the site is used. We choose providers that store data securely.</p>
-
-        <h2>Security of your information</h2>
-        <p>We are a security company: we take this seriously. Access to client information is limited to the iSecure team members who need it to do their job, and monitoring records are kept on secured systems.</p>
-
-        <h2>Access, correction and deletion</h2>
-        <p>You can ask us at any time what personal information we hold about you, ask us to correct it, or ask us to delete it where we are not required to keep it. Contact us on 1300 012 029 or email <a href="mailto:info@isecureu.com.au" style="color:var(--brand-600)">info@isecureu.com.au</a>.</p>
-
-        <h2>Questions or concerns</h2>
-        <p>If you have a question or a complaint about how we have handled your information, call 1300 012 029 or write to us at Unit D6, 13/15 Forrester St, Kingsgrove NSW 2208. If you are not satisfied with our response, you can contact the Office of the Australian Information Commissioner (OAIC).</p>
-
-        <p><em>Last updated: August 2026.</em></p>
+      <div class="two-col" style="display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(2.5rem,6vw,5rem);align-items:start">
+        <div class="reveal">
+          <span class="eyebrow">Feedback</span>
+          <h2>Good, bad or in between, we want to hear it.</h2>
+          <p class="muted" style="margin-top:1rem">If our team looked after you, we would love to know who deserves the credit. And if something was not right, tell us so we can fix it: one phone call reaches the people responsible.</p>
+          <p class="muted" style="margin-top:1rem">Prefer to talk? Call <a href="tel:1300012029" style="color:var(--brand-600);font-weight:600">1300 012 029</a>, any hour of any day.</p>
+        </div>
+        <div>
+          <div class="form-card reveal">
+            <h3>Leave your feedback</h3>
+            <p class="muted" style="font-size:.95rem;margin:.4rem 0 1.4rem">A couple of minutes of your time helps us keep the standard where it should be.</p>
+            <form data-demo novalidate>
+              <div class="form-grid">
+                <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" required autocomplete="name"></div>
+                <div class="field"><label for="f-suburb">Suburb</label><input id="f-suburb" name="suburb" type="text"></div>
+                <div class="field"><label for="f-service">What did we help you with?</label>
+                  <select id="f-service" name="service">
+                    <option>CCTV</option><option>Alarm system</option><option>Access control</option><option>Intercom</option><option>Monitoring</option><option>Video monitoring</option><option>Patrols</option><option>Guards</option><option>Something else</option>
+                  </select>
+                </div>
+                <div class="field"><label for="f-rating">How did we do?</label>
+                  <select id="f-rating" name="rating">
+                    <option>Excellent</option><option>Good</option><option>Okay</option><option>Not good enough</option>
+                  </select>
+                </div>
+                <div class="field full"><label for="f-msg">Your feedback</label><textarea id="f-msg" name="message" required></textarea></div>
+              </div>
+              <p class="hp"><label>Leave this field empty<input type="text" name="company" tabindex="-1" autocomplete="off"></label></p>
+              <button class="btn btn-primary" type="submit" style="margin-top:1.2rem;width:100%;justify-content:center">Send feedback <span class="arr">&rarr;</span></button>
+            </form>
+            <div class="form-success">
+              <div class="tick"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+              <h3>Thanks <span data-name>there</span>, that means a lot.</h3>
+              <p>Every piece of feedback is read by the people who run the business.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
