@@ -207,12 +207,14 @@ section.tight{padding-block:clamp(3rem,6vw,5rem)}
 .marquee::before,.marquee::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none}
 .marquee::before{left:0;background:linear-gradient(90deg,#fff,transparent)}
 .marquee::after{right:0;background:linear-gradient(-90deg,#fff,transparent)}
-.marquee-track{display:flex;gap:5rem;width:max-content;animation:marq 45s linear infinite;align-items:center}
+.marquee-track{display:flex;gap:5rem;width:max-content;animation:marq 70s linear infinite;align-items:center}
 .marquee:hover .marquee-track{animation-play-state:paused}
 @keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .client-logo{font-family:'Sora',sans-serif;font-weight:700;font-size:1.3rem;color:var(--ink-400);opacity:.6;transition:all .3s;white-space:nowrap;letter-spacing:-.01em}
 .client-logo:hover{opacity:1;color:var(--ink-600)}
-.marquee-track img{height:44px;width:auto;flex:0 0 auto;border-radius:6px}
+.marquee-track img{height:48px;width:auto;flex:0 0 auto;border-radius:4px;object-fit:contain}
+.marquee-track.rev{animation-direction:reverse}
+.marquee + .marquee{margin-top:1.4rem}
 .marquee-caption{color:var(--ink-600);font-size:.9375rem;margin:2.4rem auto 0}
 
 /* dark inset band */
@@ -452,6 +454,7 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
   .marquee-track{gap:2.2rem}
   .client-logo{font-size:1.05rem}
   .marquee-track img{height:34px}
+  .marquee + .marquee{margin-top:1rem}
   .marquee-caption{font-size:.85rem;margin-top:1.8rem}
   .prose p{font-size:.98rem}
   .trust-strip{margin-top:2rem;padding-top:1rem}
