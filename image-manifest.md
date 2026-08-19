@@ -60,3 +60,10 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 
 ## Video-monitoring (new page): 6005 hero operator+wall, 6015 intro ceiling PTZ, 6007 split video wall
 ## Gallery (new page): 5645, 5914, 5876, 5933, 6071, 5870, 6156, 5973, 6103, 5926, 6217, 5929
+
+## Client review (Aspasia, 18 Aug 2026)
+- Privacy blur applied to control-room photos 6012, 5999, 6003, 6007 (client rosters / seating plans / name lists obscured). Source JPGs untouched; only media/*.webp are blurred.
+- 6006 checked: screen only, no personal data, left as is.
+- Alarm hero 6110 -> 6039 (sensor), alarm split -> 5926 (her pick, image007).
+- Video monitoring hero 6005 -> 6071 (cameras, per her request + removes name board). Gallery slot 6071 -> 6246.
+- OUTSTANDING: 4 images she embedded in the email cannot be pulled to disk (alarm hero PIR, alarm keypad, 2x control room). Need the source files.

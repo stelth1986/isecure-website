@@ -11,9 +11,9 @@
       <div>
         <h5>Services</h5>
         <ul>
-          <li><a href="{{ROOT}}cctv/">CCTV Surveillance</a></li>
+          <li><a href="{{ROOT}}cctv/">CCTV Systems</a></li>
           <li><a href="{{ROOT}}alarm-systems/">Alarm Systems</a></li>
-          <li><a href="{{ROOT}}access-control/">Access Control</a></li>
+          <li><a href="{{ROOT}}access-control/">Access Control Systems</a></li>
           <li><a href="{{ROOT}}intercom/">Intercom Systems</a></li>
           <li><a href="{{ROOT}}monitoring/">Alarm Monitoring</a></li>
           <li><a href="{{ROOT}}video-monitoring/">Video Monitoring</a></li>
