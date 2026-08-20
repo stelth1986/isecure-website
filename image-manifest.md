@@ -66,4 +66,6 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 - 6006 checked: screen only, no personal data, left as is.
 - Alarm hero 6110 -> 6039 (sensor), alarm split -> 5926 (her pick, image007).
 - Video monitoring hero 6005 -> 6071 (cameras, per her request + removes name board). Gallery slot 6071 -> 6246.
-- OUTSTANDING: 4 images she embedded in the email cannot be pulled to disk (alarm hero PIR, alarm keypad, 2x control room). Need the source files.
+- Email photos received and placed: Image1 -> alarm-sensor.webp (alarm hero), Image2 -> alarm-keypad.webp (alarm intro), Image3 was already ours at full res (dsc-5926, alarm split), Image4 -> control-room-1.webp (monitoring intro), Image5 -> control-room-2.webp (monitoring band).
+- Freed: dsc-6039, alarmsystems.webp, dsc-5999, dsc-5998, dsc-6110.
+- Client logos: 47 live. Red Spot rental cars omitted, no logo available.
