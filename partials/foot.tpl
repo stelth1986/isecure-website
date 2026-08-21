@@ -32,7 +32,7 @@
           <li><a href="{{ROOT}}sa/">South Australia</a></li>
           <li><a href="{{ROOT}}nt/">Northern Territory</a></li>
           <li><a href="{{ROOT}}tas/">Tasmania</a></li>
-          <li><a href="{{ROOT}}locations/">Nationwide coverage</a></li>
+          <li><a href="{{ROOT}}locations/">Nationwide Coverage</a></li>
         </ul>
       </div>
       <div>
