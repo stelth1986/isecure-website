@@ -68,5 +68,5 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 - Video monitoring hero 6005 -> 6071 (cameras, per her request + removes name board). Gallery slot 6071 -> 6246.
 - Email photos received and placed: Image1 -> alarm-sensor.webp (alarm hero), Image2 -> alarm-keypad.webp (alarm intro), Image3 was already ours at full res (dsc-5926, alarm split), Image4 -> control-room-1.webp (monitoring intro), Image5 -> control-room-2.webp (monitoring band).
 - Freed: dsc-6039, alarmsystems.webp, dsc-5999, dsc-5998, dsc-6110.
-- Client logos: 47 live. Red Spot rental cars omitted, no logo available.
+- Client logos: 48 live. Redspot added 2026-08-25 from Clients/logos/redspot.png (1161x300 RGBA -> 464x120 WebP on white).
 - alarm-keypad.webp upgraded to controlpad.png (1024x576, was 407x268).
