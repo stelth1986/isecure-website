@@ -70,3 +70,7 @@ Library: F:\Downloads\I-Secure\I-Secure\_DSC*.jpg (274 photos). Convert picks to
 - Freed: dsc-6039, alarmsystems.webp, dsc-5999, dsc-5998, dsc-6110.
 - Client logos: 48 live. Redspot added 2026-08-25 from Clients/logos/redspot.png (1161x300 RGBA -> 464x120 WebP on white).
 - alarm-keypad.webp upgraded to controlpad.png (1024x576, was 407x268).
+- Gallery trimmed 2026-08-26 (client): removed dsc-5870 (upside-down keypad),
+  dsc-6217 (warehouse stock), dsc-5926 (near-duplicate of 5929 + reused on
+  alarm-systems), dsc-6246 (meeting room). Now 14, all unique site-wide.
+  Client sending more onsite completed-job photos.
