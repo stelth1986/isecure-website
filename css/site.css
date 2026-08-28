@@ -374,6 +374,10 @@ footer{background:var(--night-950);border-radius:var(--r-2xl) var(--r-2xl) 0 0;c
 .foot-brand .word .i{color:var(--signal-500)}
 .foot-brand p{font-size:.9375rem;margin-top:1.2rem;max-width:30ch}
 .foot-phone{font-family:'Sora',sans-serif;font-weight:600;font-size:1.35rem;color:#fff!important}
+.foot-social{display:flex;gap:.7rem;margin-top:1.4rem}
+.foot-social a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid var(--night-line);color:var(--night-muted);transition:background .2s,border-color .2s,color .2s,transform .2s}
+.foot-social a:hover{background:var(--brand-600);border-color:var(--brand-600);color:#fff;transform:translateY(-2px)}
+.foot-social svg{width:18px;height:18px}
 .foot-legal{border-top:1px solid var(--night-line);margin-top:3.5rem;padding-top:2rem;display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:center;font-size:.85rem}
 .foot-legal .asial{display:flex;align-items:center;gap:.8rem}
 .foot-legal .asial img{height:34px;width:auto}
