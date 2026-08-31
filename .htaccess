@@ -30,3 +30,9 @@ ErrorDocument 404 /404.html
 <FilesMatch "isecure-mail-config\.php$">
   Require all denied
 </FilesMatch>
+
+# never serve build sources (only relevant if the repo is deployed directly)
+RedirectMatch 404 ^/(content|partials|\.git)(/|$)
+<FilesMatch "^(build\.ps1|image-manifest\.md|.*\.tpl)$">
+  Require all denied
+</FilesMatch>
