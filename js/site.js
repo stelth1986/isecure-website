@@ -93,21 +93,45 @@
     });
   });
 
-  // demo forms: client-side success state (production build wires these to a server action)
-  document.querySelectorAll('form[data-demo]').forEach(function(form){
+  // forms: post to the mail function, then show the success state
+  var FORM_ENDPOINT = 'https://isecure-stelth-s-projects.vercel.app/api/send';
+  document.querySelectorAll('form[data-form]').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      if (form.querySelector('.hp input') && form.querySelector('.hp input').value) return;
+      var hp = form.querySelector('.hp input');
+      if (hp && hp.value) return;
       var required = form.querySelectorAll('[required]');
-      for (var i = 0; i < required.length; i++) { if (!required[i].value.trim()) { required[i].focus(); return; } }
-      var name = (form.querySelector('[name="name"]') || {}).value || '';
-      form.style.display = 'none';
-      var ok = form.parentElement.querySelector('.form-success');
-      if (ok) {
-        var n = ok.querySelector('[data-name]');
-        if (n) n.textContent = name ? name.split(' ')[0] : 'there';
-        ok.style.display = 'block';
+      for (var i = 0; i < required.length; i++) {
+        if (!required[i].value.trim()) { required[i].focus(); return; }
       }
+      var btn = form.querySelector('[type="submit"]');
+      var label = btn ? btn.textContent : '';
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+      var err = form.querySelector('.form-error');
+      if (err) err.style.display = 'none';
+
+      var data = { form: form.dataset.form };
+      new FormData(form).forEach(function(v, k){ data[k] = v; });
+
+      fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      }).then(function(r){
+        if (!r.ok) throw new Error('send failed');
+        var name = (form.querySelector('[name="name"]') || {}).value || '';
+        form.style.display = 'none';
+        var ok = form.parentElement.querySelector('.form-success');
+        if (ok) {
+          var n = ok.querySelector('[data-name]');
+          if (n) n.textContent = name ? name.split(' ')[0] : 'there';
+          ok.style.display = 'block';
+        }
+      }).catch(function(){
+        if (btn) { btn.disabled = false; btn.textContent = label; }
+        if (err) { err.style.display = 'block'; }
+        else { alert('Sorry, that did not send. Please call 1300 012 029 or email info@isecureu.com.au.'); }
+      });
     });
   });
 })();
