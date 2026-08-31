@@ -95,6 +95,7 @@
 
   // forms: post to the mail function, then show the success state
   var FORM_ENDPOINT = '/send.php';
+  var FORM_LOADED = Date.now();
   document.querySelectorAll('form[data-form]').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
@@ -110,7 +111,7 @@
       var err = form.querySelector('.form-error');
       if (err) err.style.display = 'none';
 
-      var data = { form: form.dataset.form };
+      var data = { form: form.dataset.form, elapsed: Date.now() - FORM_LOADED };
       new FormData(form).forEach(function(v, k){ data[k] = v; });
 
       fetch(FORM_ENDPOINT, {
