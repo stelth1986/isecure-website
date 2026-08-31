@@ -94,7 +94,7 @@
   });
 
   // forms: post to the mail function, then show the success state
-  var FORM_ENDPOINT = 'https://isecure-stelth-s-projects.vercel.app/api/send';
+  var FORM_ENDPOINT = '/send.php';
   document.querySelectorAll('form[data-form]').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
